@@ -1,5 +1,5 @@
 # Health Insurance Cross-Sell Prediction
-AUTHOR. [Jennifer Mbugua](https://github.com/Jen-Shiko)
+AUTHOR: [Jennifer Mbugua](https://github.com/Jen-Shiko)
 
 ## Project Overview
 This project is based on the Health Insurance Cross-Sell Prediction dataset obtained from Kaggle, originally released with predefined train (which we are using as our main dataset)and test files for a machine learning competition. The primary goal is to predict whether an existing customer will enroll in a health insurance product offered by the company.
@@ -54,6 +54,7 @@ Three models were developed and compared:
   - Improves predictive performance and stability
   - Selected as the final model due to superior results
 
+
 ## Evaluation
 
 The target variable is imbalanced, with relatively few customers enrolling in the health insurance product.  
@@ -68,10 +69,16 @@ The following metrics were prioritized:
 - **F1-score**
   - Balances recall and precision
   - Ensures the model does not generate excessive false positives
+ 
+##### ROC curve
+![ROC Curves](Images/roc_curve.png)
 
 Among all models, the **Random Forest model achieved the best balance between recall and F1-score**, making it the most effective choice for business deployment.
 
 Performance remained stable when evaluated on the unseen Kaggle validation dataset, indicating strong generalization ability.
+##### Feature Importance
+![Feature Importance](Images/feature_importance.png)
+
 
 ## Conclusion
 This project demonstrates how machine learning can support targeted marketing strategies in the insurance industry.
