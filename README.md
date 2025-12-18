@@ -1,5 +1,5 @@
 # Health Insurance Cross-Sell Prediction
-AUTHOR: [Jennifer Mbugua](https://github.com/Jen-Shiko)
+AUTHOR: [Jeniffer Mbugua](https://github.com/Jen-Shiko)
 
 ## Project Overview
 This project is based on the Health Insurance Cross-Sell Prediction dataset obtained from Kaggle, originally released with predefined train (which we are using as our main dataset)and test files for a machine learning competition. The primary goal is to predict whether an existing customer will enroll in a health insurance product offered by the company.
@@ -19,21 +19,15 @@ The company deals with Vehicle Insurance and has decided to expand and venture i
 - Findings
 - Business Recommendations
 
-#### Key Visualizations
+#### Visualizations
 ##### Target Distribution
 ![Target Distribution](Images/target_distribution.png)
-
-##### Age vs Enrollment
-![Age vs Enrollment](Images/age_enrolment.png)
 
 ##### Previously Insured vs Enrollment
 ![Previously Insured vs Enrollment](Images/previously_insured_enrollment.png)
 
 ##### Vehicle Damage vs Enrollment
 ![Vehicle Damage vs Enrollment](Images/vehicle_damage_enrollment.png)
-
-##### Vehicle Age vs Response
-![Vehicle Age vs Response](Images/vehicle_age_enrollment.png)
 
 ## Modeling
 
@@ -76,6 +70,7 @@ The following metrics were prioritized:
 Among all models, the **Random Forest model achieved the best balance between recall and F1-score**, making it the most effective choice for business deployment.
 
 Performance remained stable when evaluated on the unseen Kaggle validation dataset, indicating strong generalization ability.
+
 ##### Feature Importance
 ![Feature Importance](Images/feature_importance.png)
 
@@ -119,6 +114,10 @@ Findings:
 
 
 ## Appendix
-[📄 Insurance Prediction Presentation Slides (PDF)](.pdf)
+[📄 Insurance Prediction Presentation Slides (PDF)](Health_Insurance_Cross_Sell_Presentation.pdf)
+
+[📄 Insurance Prediction Powerpoint Slides (PPTX)](Health_Insurance_Cross_Sell_Presentation.pptx)
+
 [📄 HICSP Analysis Notebook](index.ipynb)
-[📄 HICSP Analysis Notebook(PDF)](project_notebook.pdf)
+
+[📄 HICSP Analysis Notebook(PDF)](index_pdf_notebook.pdf)
