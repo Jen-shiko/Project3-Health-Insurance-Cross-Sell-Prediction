@@ -1,4 +1,4 @@
-# Project Title — Health Insurance Cross-Sell Prediction Project
+# Health Insurance Cross-Sell Prediction
 AUTHOR. [Jennifer Mbugua](https://github.com/Jen-Shiko)
 
 ## Project Overview
